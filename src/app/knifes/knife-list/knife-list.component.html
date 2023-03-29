@@ -1,0 +1,8 @@
+<div>
+  <p>knife-list works!</p>
+  <app-knife-list-item
+    *ngFor="let knife of knifes; let i = index"
+    [knife]="knife"
+    [index]="i"
+  ></app-knife-list-item>
+</div>
